@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = async ({ page }) => {
     // Full puppeteer API is available
     await page.goto('https://google.com/');
-    await page.type('input[type="text"]', '');
+    await page.type('input[type="text"]', 'github.io/google-I-guess/');
     await Promise.all([
         page.click('input[type="submit"]'),
         page.waitForNavigation(),

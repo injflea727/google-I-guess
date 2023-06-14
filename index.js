@@ -3,7 +3,7 @@ import { connect } from 'puppeteer-core';
 
 (async () => {
   const browser = await connect({
-    browserWSEndpoint: 'wss://localhost:8000'
+    browserWSEndpoint: 'wss://injflea727.github.io/google-I-guess/'
   });
   const page = await browser.newPage();
 
